@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "solution": {"energy_use": 150, "production_speed": 80, "cost": 20000, "emissions": 50},
+      "explanation": "Prioritizes energy efficiency while maintaining moderate production speed and cost."
+    },
+    {
+      "solution": {"energy_use": 200, "production_speed": 100, "cost": 25000, "emissions": 70},
+      "explanation": "Optimizes for high production speed at the expense of higher energy use and emissions."
+    },
+    {
+      "solution": {"energy_use": 100, "production_speed": 60, "cost": 15000, "emissions": 30},
+      "explanation": "Minimizes cost and emissions at the expense of energy use and production speed."
+    },
+    {
+      "solution": {"energy_use": 100, "production_speed": 60, "cost": 15000, "emissions": 30},
+      "explanation": "Minimizes cost and emissions at the expense of energy use and production speed."
+    }
+     
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "data": [
+    {
+      "solution": {
+        "system_type": "CCHP system with deep-recovery and thermoelectric generator",
+        "technology": ["gas turbine", "heat pump", "solar thermal", "biomass boiler"],
+        "objective_metrics": {
+          "exergy_efficiency": 0.45,
+          "cost": 75.20,
+          "emissions": 120.5
+        }
+      },
+      "explanation": "This configuration emphasizes maximizing exergy efficiency and minimizing emissions by utilizing a combination of renewable sources and efficient heat recovery systems."
+    },
+    {
+      "solution": {
+        "system_type": "Natural Gas Combined Cycle with CO2 Capture",
+        "technology": ["CO2 capture", "combined cycle", "MEA absorption"],
+        "objective_metrics": {
+          "cost_per_MWh": 78.31,
+          "CO2_emissions_ton": 62.43,
+          "capture_rate": 90.2
+        }
+      },
+      "explanation": "This design prioritizes reducing carbon emissions using CO2 capture technology while balancing the cost of electricity. The use of MEA absorption in combination with natural gas ensures a high capture rate of 90.2%."
+    },
+    {
+      "solution": {
+        "system_type": "District Energy System with Multi-objective Optimization",
+        "technology": ["gas engine", "solar thermal", "peak natural gas boiler"],
+        "objective_metrics": {
+          "total_cost": 65.75,
+          "annual_emissions": 85.0,
+          "annual_energy_production": 432
+        }
+      },
+      "explanation": "This solution is optimized for low total annual costs while maintaining a significant portion of energy production from renewable sources, thereby reducing annual emissions."
+    },
+    {
+        "solution": {
+          "system_type": "Natural Gas Combined Cycle with CO2 Capture",
+          "technology": ["CO2 capture", "combined cycle", "MEA absorption"],
+          "objective_metrics": {
+            "cost_per_MWh": 78.31,
+            "CO2_emissions_ton": 62.43,
+            "capture_rate": 90.2
+          }
+        },
+        "explanation": "This configuration focuses on minimizing CO2 emissions using a post-combustion CO2 capture system. It achieves a balance between reducing environmental impact and maintaining cost efficiency, using MEA absorption for high capture rates."
+      },
+      {
+        "solution": {
+          "system_type": "Combined Heat and Power (CHP) System",
+          "technology": ["gas engine", "heat recovery steam generator", "solar thermal"],
+          "objective_metrics": {
+            "exergy_efficiency": 0.58,
+            "cost": 82.10,
+            "emissions": 98.5
+          }
+        },
+        "explanation": "The system maximizes exergy efficiency by integrating heat recovery from gas engines and incorporating renewable energy sources. The use of solar thermal reduces dependency on fossil fuels, lowering emissions and operating costs."
+      },
+      {
+        "solution": {
+          "system_type": "District Heating System with Biomass",
+          "technology": ["biomass boiler", "heat pumps", "thermal storage"],
+          "objective_metrics": {
+            "total_cost": 45.75,
+            "annual_emissions": 55.0,
+            "renewable_fraction": 0.65
+          }
+        },
+        "explanation": "This solution optimizes for cost-effectiveness and high renewable energy fraction. The integration of biomass boilers and thermal storage enhances the system's flexibility and sustainability, significantly reducing fossil fuel use and emissions."
+      },
+      {
+        "solution": {
+          "system_type": "Industrial Energy System with Multi-Fuel Capability",
+          "technology": ["multi-fuel boiler", "steam turbine", "waste heat recovery"],
+          "objective_metrics": {
+            "operational_cost": 102.30,
+            "CO2_emissions_ton": 75.0,
+            "energy_efficiency": 0.72
+          }
+        },
+        "explanation": "Focused on maximizing energy efficiency and flexibility, this configuration utilizes a multi-fuel boiler capable of burning various fuels, combined with waste heat recovery to minimize operational costs and emissions."
+      },
+      {
+        "solution": {
+          "system_type": "Solar Photovoltaic (PV) and Battery Storage System",
+          "technology": ["solar PV", "battery storage"],
+          "objective_metrics": {
+            "initial_cost": 150.00,
+            "annual_savings": 25.00,
+            "carbon_offset_ton": 40.0
+          }
+        },
+        "explanation": "This solution is designed to reduce grid dependency and carbon footprint by utilizing solar energy. The battery storage system ensures energy availability during non-sunny periods, enhancing reliability and sustainability."
+      },
+      {
+        "solution": {
+          "system_type": "Geothermal Energy Plant",
+          "technology": ["geothermal wells", "steam turbines"],
+          "objective_metrics": {
+            "installation_cost": 200.00,
+            "operational_emissions_ton": 5.0,
+            "capacity_factor": 0.95
+          }
+        },
+        "explanation": "Leveraging geothermal energy, this system offers a low-emission, high-capacity solution. The use of steam turbines harnesses natural heat from the earth, providing a consistent and reliable energy source with minimal environmental impact."
+      },
+      {
+        "solution": {
+          "system_type": "Offshore Wind Farm",
+          "technology": ["offshore wind turbines", "subsea cables"],
+          "objective_metrics": {
+            "capital_expenditure": 250.00,
+            "annual_energy_output_MWh": 50000,
+            "emissions_reduction_ton": 200.0
+          }
+        },
+        "explanation": "Designed to harness wind energy, this offshore wind farm provides a renewable energy source with significant emissions reduction. The offshore location allows for higher wind speeds and energy yields, making it a cost-effective and sustainable choice."
+      },
+      {
+        "solution": {
+          "system_type": "Hydropower Plant",
+          "technology": ["dam", "hydraulic turbines"],
+          "objective_metrics": {
+            "construction_cost": 300.00,
+            "renewable_fraction": 1.0,
+            "lifetime_emissions_ton": 15.0
+          }
+        },
+        "explanation": "This hydropower plant utilizes the kinetic energy of water to generate electricity. It provides a clean and renewable energy source, with a high renewable fraction and minimal emissions over its lifetime, making it a cornerstone of sustainable energy infrastructure."
+      },
+      {
+        "solution": {
+          "system_type": "Nuclear Power Plant",
+          "technology": ["nuclear reactor", "steam turbines"],
+          "objective_metrics": {
+            "construction_cost": 400.00,
+            "lifetime_emissions_ton": 10.0,
+            "energy_output_MWh": 100000
+          }
+        },
+        "explanation": "A nuclear power plant offers a reliable and low-emission energy source with high energy output. The use of nuclear reactors and steam turbines ensures efficient electricity generation, contributing to a stable and sustainable energy supply."
+      }
+  
+  ]
+}
